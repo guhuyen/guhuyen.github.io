@@ -1263,3 +1263,18 @@ h6 {
 .footer .credits a {
   color: var(--color-primary);
 }
+
+#live-chat-zalo {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  z-index: 10000;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: url(../img/icon-zalo.png) center no-repeat;
+  background-size: auto;
+  background-size: auto;
+  background-size: 48px;
+}
