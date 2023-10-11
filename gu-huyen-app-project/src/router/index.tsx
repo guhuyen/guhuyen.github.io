@@ -1,4 +1,4 @@
-import { createBrowserRouter, Outlet } from "react-router-dom";
+import { createHashRouter, Outlet } from "react-router-dom";
 import AuthProvider  from "../context/AuthProvider.tsx";
 import HomePage from "../no-authen/home-page/index.tsx";
 import { ProtectedRoute } from "./ProtectedRoute.tsx";
@@ -15,7 +15,7 @@ const AuthLayout = () => {
   );
 };
 
-export default createBrowserRouter([
+export default createHashRouter([
   {
     element: <AuthLayout />,
     errorElement: <ErrorPage />,
