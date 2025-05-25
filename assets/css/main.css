@@ -722,6 +722,7 @@ h6 {
   width: 446px;
   height: 778px;
   object-fit: cover;
+  max-height: 96vh;
 }
 
 .gallery .gallery-links {
