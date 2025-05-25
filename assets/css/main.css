@@ -719,6 +719,9 @@ h6 {
 
 .gallery .gallery-item img {
   transition: 0.3s;
+  width: 446px;
+  height: 778px;
+  object-fit: cover;
 }
 
 .gallery .gallery-links {
